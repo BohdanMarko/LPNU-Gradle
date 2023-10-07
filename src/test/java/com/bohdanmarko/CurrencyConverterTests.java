@@ -6,21 +6,29 @@ public class CurrencyConverterTests {
     
     @Test
     public void testConvertUAHtoUSD() {
-        assert CurrencyConverter.convertUAHtoUSD(27.0) == 1.0;
+        var expected = 1.0;
+        var actual = CurrencyConverter.convertUAHtoUSD(27.0);
+        assert actual == expected;
     }
 
     @Test
     public void testConvertUSDtoUAH() {
-        assert CurrencyConverter.convertUSDtoUAH(1.0) == 27.0;
+        var expected = 27.0;
+        var actual = CurrencyConverter.convertUSDtoUAH(1.0);
+        assert actual == expected;
     }
 
     @Test
     public void testConvertUAHtoEUR() {
-        assert CurrencyConverter.convertUAHtoEUR(32.0) == 1.0;
+        var expected = 1.0;
+        var actual = CurrencyConverter.convertUAHtoEUR(32.0);
+        assert actual == expected;
     }
 
     @Test
     public void testConvertEURtoUAH() {
-        assert CurrencyConverter.convertEURtoUAH(1.0) == 32.0;
+        var expected = 32.0;
+        var actual = CurrencyConverter.convertEURtoUAH(1.0);
+        assert actual == expected;
     }
 }
