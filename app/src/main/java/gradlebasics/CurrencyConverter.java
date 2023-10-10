@@ -1,9 +1,9 @@
-package com.bohdanmarko;
+package gradlebasics;
 
 public class CurrencyConverter {
 
-    private static final double USD_COEFFICIENT = 27.0;
-    private static final double EUR_COEFFICIENT = 32.0;
+    private static final double USD_COEFFICIENT = 36.5;
+    private static final double EUR_COEFFICIENT = 38.6;
 
     public static double convertUAHtoUSD(double uah) {
         return uah / USD_COEFFICIENT;
